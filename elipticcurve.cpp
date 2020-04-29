@@ -71,7 +71,6 @@ elipticCurve::addPoint(elipticCurve::point P, elipticCurve::point Q)
     if(Q.isUnit) return P;
     if(add(P.y, Q.y) == 0) return origin;
     if(P.x == Q.x) {
-        hoge = add(mul(3, mul(P.x, P.x)), a);
         lambda = div(add(mul(3, mul(P.x, P.x)), a), mul(2, P.y));
     }
     else {
