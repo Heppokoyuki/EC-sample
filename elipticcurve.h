@@ -3,7 +3,6 @@
 
 #include <boost/multiprecision/cpp_int.hpp>
 #include <boost/random.hpp>
-#include <boost/integer/mod_inverse.hpp>
 
 namespace mp = boost::multiprecision;
 
